@@ -28,6 +28,31 @@ height:40px;
     /* background-color:blueviolet; */
 margin: 0px 17px;
 }
+.header-gjp{
+    position:relative;
+}
+.header-gjp::after{
+    position: absolute;
+    top:8px;
+    right:-10px;
+    content:"Naw";
+    color:#484848;
+    background-color: #E1F0FA;
+    width:44.73px;
+    height:19px;
+    border-radius:10px;
+    font-size: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 .header-login{
     margin-right:75px;
+}
+
+
+.form-section{
+    background-color: aquamarine;
+    height:610px;
+    width:100%;
 }
