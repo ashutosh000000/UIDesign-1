@@ -5,6 +5,7 @@
     width:100%;
     display: flex;
     /* justify-content: center; */
+    border-radius: 0px 0px 500px 300px;
 
 }
 
@@ -60,6 +61,66 @@
     height:40.1px;
     background-color: #093b80;
     border-radius: 20px;
-    border: 0px;
-    box-shadow: 1px 10px  22px #093b80b6;
+    border: 1px solid #093b80;
+    box-shadow: 0px 17px 36px 0px #a0afd1;
+    color:white;
+}
+
+.free-trial-form-container{
+    width:50%;
+    /* background-color:blueviolet; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.free-trial-form{
+    background-color:white;
+    width:66.6%;
+    height:71.4%;
+    display:flex;
+    flex-direction: column;;
+    /* justify-content:center; */
+    align-items:center;
+    border-radius:10px;
+}
+div label .red-c,div h1 .red-c{
+    color:red;
+}
+.free-trial-form-graduation,.free-trial-form-mobile, .free-trial-form-email{
+   display:flex;
+   flex-direction: column;
+   /* background-color:aqua; */
+   margin-top: 15px;
+   width:71.5%;
+   /* height:50px;  */
+}
+
+.free-trial-form-graduation input,.free-trial-form-mobile input, .free-trial-form-email input{
+padding-left:10px;
+outline: none;
+    height:39px;
+border-radius: 17px;
+border:1px solid #e5f2fc;
+background-color:#e5f2fc;
+
+}
+.free-trial-form-mobile-code{
+    width:20%;
+
+}
+.free-trial-form-mobile-no{
+    width:79%;
+}
+.free-trial-form-heading{
+margin-top:57px;
+}
+.free-trial-form-button{
+    margin-top:20px;
+    width:71%;
+    height:40.1px;
+    background-color: #093b80;
+    border-radius: 20px;
+    border: 1px solid #093b80;
+    box-shadow: 0px 17px 36px 0px #a0afd1;
+    color:white;   
 }
